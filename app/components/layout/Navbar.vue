@@ -7,8 +7,6 @@ const menuItems = [
   { name: "Home", path: "#" },
   { name: "About", path: "#" },
   { name: "Service", path: "#" },
-  { name: "Pages", path: "#" },
-  { name: "Blog", path: "#" },
   { name: "Contact", path: "#" },
 ];
 </script>
@@ -18,7 +16,7 @@ const menuItems = [
     <!-- Logo -->
     <div class="container-app">
       <div
-        class="bg-orange-600 text-white rounded-3xl shadow-lg px-6 py-6 flex justify-between items-center"
+        class="bg-sky-500 text-white rounded-3xl shadow-lg px-6 py-6 flex justify-between items-center"
       >
         <h1 class="font-bold text-xl">ALHAIZA</h1>
         <!-- Desktop Menu -->
@@ -55,7 +53,7 @@ const menuItems = [
     <!-- Mobile Menu -->
     <div
       v-if="isOpen"
-      class="max-w-xl mx-auto mt-3 bg-orange-600 rounded-2xl px-6 py-4 flex flex-col gap-3 md:hidden shadow-lg"
+      class="max-w-xl mx-auto mt-3 bg-sky-500 rounded-2xl px-6 py-4 flex flex-col gap-3 md:hidden shadow-lg"
     >
       <NuxtLink
         v-for="item in menuItems"
