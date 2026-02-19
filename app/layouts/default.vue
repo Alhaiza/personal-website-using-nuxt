@@ -2,12 +2,12 @@
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col">
+  <div class="min-h-screen bg-gray-100">
     <!-- Navbar -->
     <LayoutNavbar />
 
     <!-- Page Content -->
-    <main class="flex-1">
+    <main class="pt-28 pb-16">
       <NuxtPage />
     </main>
 
