@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="container-app mt-12 mb-20">
+  <section class="container-app mt-12">
     <div
       class="bg-white rounded-[3rem] shadow-md p-10 grid grid-cols-1 md:grid-cols-2 gap-10"
     >

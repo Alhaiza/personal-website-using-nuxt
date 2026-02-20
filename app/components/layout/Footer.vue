@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <footer class="mt-16 mb-10">
+  <footer class="mb-10">
     <!-- Wrapper sama persis kayak section -->
     <div class="container-app">
       <!-- Card Footer -->
